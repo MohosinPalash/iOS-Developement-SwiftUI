@@ -10,6 +10,7 @@
 		0C79AC1B29FBCB6B000EAD0C /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1A29FBCB6B000EAD0C /* FramesAndAlignment.swift */; };
 		0C79AC1D29FBD067000EAD0C /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1C29FBD067000EAD0C /* BackgroundAndOverlay.swift */; };
 		0C79AC1F29FBF412000EAD0C /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1E29FBF412000EAD0C /* Stacks.swift */; };
+		0C79AC7F2A0A4AF2000EAD0C /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC7E2A0A4AF2000EAD0C /* Padding.swift */; };
 		0CAB29DC29FA92050027D943 /* BeginnerBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB29DB29FA92050027D943 /* BeginnerBootcampApp.swift */; };
 		0CAB29DE29FA92050027D943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB29DD29FA92050027D943 /* ContentView.swift */; };
 		0CAB29E029FA92170027D943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB29DF29FA92170027D943 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		0C79AC1A29FBCB6B000EAD0C /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
 		0C79AC1C29FBD067000EAD0C /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0C79AC1E29FBF412000EAD0C /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		0C79AC7E2A0A4AF2000EAD0C /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		0CAB29D829FA92050027D943 /* BeginnerBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeginnerBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAB29DB29FA92050027D943 /* BeginnerBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerBootcampApp.swift; sourceTree = "<group>"; };
 		0CAB29DD29FA92050027D943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0C79AC1A29FBCB6B000EAD0C /* FramesAndAlignment.swift */,
 				0C79AC1C29FBD067000EAD0C /* BackgroundAndOverlay.swift */,
 				0C79AC1E29FBF412000EAD0C /* Stacks.swift */,
+				0C79AC7E2A0A4AF2000EAD0C /* Padding.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				0C79AC1B29FBCB6B000EAD0C /* FramesAndAlignment.swift in Sources */,
 				0C79AC1D29FBD067000EAD0C /* BackgroundAndOverlay.swift in Sources */,
 				0CAB29DC29FA92050027D943 /* BeginnerBootcampApp.swift in Sources */,
+				0C79AC7F2A0A4AF2000EAD0C /* Padding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
