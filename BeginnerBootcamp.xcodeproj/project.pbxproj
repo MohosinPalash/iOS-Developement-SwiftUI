@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C68D6C92A216D9C00163E5B /* init-enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C68D6C82A216D9C00163E5B /* init-enum.swift */; };
+		0C68D6CB2A21860E00163E5B /* StateVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C68D6CA2A21860E00163E5B /* StateVariable.swift */; };
+		0C68D6CD2A2189EB00163E5B /* ExtractFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C68D6CC2A2189EB00163E5B /* ExtractFunctions.swift */; };
 		0C79AC1B29FBCB6B000EAD0C /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1A29FBCB6B000EAD0C /* FramesAndAlignment.swift */; };
 		0C79AC1D29FBD067000EAD0C /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1C29FBD067000EAD0C /* BackgroundAndOverlay.swift */; };
 		0C79AC1F29FBF412000EAD0C /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79AC1E29FBF412000EAD0C /* Stacks.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C68D6C82A216D9C00163E5B /* init-enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "init-enum.swift"; sourceTree = "<group>"; };
+		0C68D6CA2A21860E00163E5B /* StateVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVariable.swift; sourceTree = "<group>"; };
+		0C68D6CC2A2189EB00163E5B /* ExtractFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunctions.swift; sourceTree = "<group>"; };
 		0C79AC1A29FBCB6B000EAD0C /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
 		0C79AC1C29FBD067000EAD0C /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0C79AC1E29FBF412000EAD0C /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 				0C79AC1E29FBF412000EAD0C /* Stacks.swift */,
 				0C79AC7E2A0A4AF2000EAD0C /* Padding.swift */,
 				0C79AC802A0A5030000EAD0C /* Spacer.swift */,
+				0C68D6C82A216D9C00163E5B /* init-enum.swift */,
+				0C68D6CA2A21860E00163E5B /* StateVariable.swift */,
+				0C68D6CC2A2189EB00163E5B /* ExtractFunctions.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,13 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C68D6C92A216D9C00163E5B /* init-enum.swift in Sources */,
 				0C79AC1F29FBF412000EAD0C /* Stacks.swift in Sources */,
 				0CAB29DE29FA92050027D943 /* ContentView.swift in Sources */,
 				0C79AC812A0A5030000EAD0C /* Spacer.swift in Sources */,
 				0C79AC1B29FBCB6B000EAD0C /* FramesAndAlignment.swift in Sources */,
+				0C68D6CB2A21860E00163E5B /* StateVariable.swift in Sources */,
 				0C79AC1D29FBD067000EAD0C /* BackgroundAndOverlay.swift in Sources */,
 				0CAB29DC29FA92050027D943 /* BeginnerBootcampApp.swift in Sources */,
 				0C79AC7F2A0A4AF2000EAD0C /* Padding.swift in Sources */,
+				0C68D6CD2A2189EB00163E5B /* ExtractFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
